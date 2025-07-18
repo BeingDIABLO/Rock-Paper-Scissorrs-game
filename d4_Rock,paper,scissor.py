@@ -30,9 +30,9 @@ elif n==2:
 ''')
 else:
     print("Invalid choice")
-random_choice=random.randint(3,5)
+random_choice=random.randint(0,2)
 
-if(random_choice==3):
+if(random_choice==0):
     print(''' Computer Choosed rock
     _______
 ---'   ____)
@@ -41,7 +41,7 @@ if(random_choice==3):
       (____)
 ---.__(___)
 ''')
-elif random_choice==4:
+elif random_choice==1:
     print('''Computer Choosed Paper
     _______
 ---'   ____)____
@@ -51,7 +51,7 @@ elif random_choice==4:
 ---.__________)
 ''')
 
-elif(random_choice==5):
+elif(random_choice==2):
     print('''Computer Choosed Scissor
     _______
 ---'   ____)____
@@ -61,9 +61,9 @@ elif(random_choice==5):
 ---.__(___)
 ''')
 
-if(n==0 and random_choice==3 or n==1 and random_choice==4 or n==2 and random_choice==5):
+if(n==0 and random_choice==0 or n==1 and random_choice==1 or n==2 and random_choice==2):
     print("It's a draw")
-elif(n==0 and random_choice==5 or n==1 and random_choice==3 or n==2 and random_choice==4):
+elif(n==0 and random_choice==2 or n==1 and random_choice==0 or n==2 and random_choice==1):
     print("You Won")
 else:
     print("Computer Won")
