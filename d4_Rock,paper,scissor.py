@@ -29,7 +29,7 @@ elif n==2:
 ---.__(___)
 ''')
 else:
-    print("Invalid choice")
+    print("Invalid choice, So Computer Won by default")
 random_choice=random.randint(0,2)
 
 if(random_choice==0):
