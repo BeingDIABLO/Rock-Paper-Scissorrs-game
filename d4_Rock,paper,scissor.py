@@ -39,7 +39,7 @@ print(f"Conpter Choose",game_icons[computer_choice])
 
 if(user_input==0 and computer_choice==0 or user_input==1 and computer_choice==1 or user_input==2 and computer_choice==2):
     print("It's a draw")
-elif(user_input==0 and computer_choice==2 or user_input==1 and computer_choice==0 or user_input==2 and computer_choice==0):
+elif(user_input==0 and computer_choice==2 or user_input==1 and computer_choice==0 or user_input==2 and computer_choice==1):
     print("You Won")
 else:
     print("Computer Won")
